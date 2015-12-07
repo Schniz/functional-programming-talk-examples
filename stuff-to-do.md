@@ -1,0 +1,16 @@
+- Show simple shout
+- Show jQuery DOM - Imperative
+- Show how we want to declare it
+- Show jQuery getJSON wrapper
+- run it with logs...
+  - this compose supports Promises
+- memoize it
+  - not pure, but cacheable
+- building the screen is as easy as line 233
+- show with (rerender o getJSON)
+- centralized state + observables
+  - save the state on a single object
+  - mutate the state in a single place
+  - all changes are in "actions"
+  - switch (action) -> return new state. easy!
+  - rerun
